@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="iso-8859-1">
+    <meta name=author content="Maribel Méndez">
+    <meta name="description" content="Pasteleria Launch X">
+    <meta name="keywords" content="Pasteleria,Precios bajos, sabores de pasteles,pasteles"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Postrecitos Maribel Méndez</title>
+    <link rel="stylesheet" href="./style/miestilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+</head>
+  <body>
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header_container">
+                <h1 class="main-header_title">Postrecitos</h1>
+            </div>
+            <div class="main-header_container">
+                <span class="main-header_text"><a href="https://api.whatsapp.com/send?phone=5555555555&amp;text=Te%20contacto%20desde%20la%20web%20de%20App%20Center%20para%20mas%20info">Necesitas ayuda? </a></span>
+            <p class="main-header_text">Contactanos 5555555555</p>
+            <nav class="main-nav">   
+                <ul class="menu">
+                    <li class="menu_item"><a href="./index.html" class="menu_link">Inicio</a></li>
+                    <li class="menu_item"><a href="./pagina_pastelero.html"class="menu_link">Inventario Pastelero</a></li>
+                    <li class="menu_item"><a href="./cotizacion-pasteles.html" class="menu_link">Cotiza con nosotros</a></li>
+                    <li class="menu_item"><a href="./historia-launch-x-2022.html" class="menu_link">historia Postrecitos Mary</a></li>
+                </ul>
+            
+                 
+                 </nav>
+
+            </div>
+        </div>
+      
+    </header>
+
+         <img class="imagen-menu" src="./img/03.jpg" alt="PASTEL VAINILLA" ></nav>
+
+    <br> <br> <br> <br>
+ <h1 align=center>Cotiza tu pastel Aqui</h1>
+<form action="/accion.js" id="form1" method="post">
+    <div align="center">
+        <label for="Input1"> Nombre Completo</label><br>
+        <input type="text" placeholder="Ingresa tu nombre" id="Input1" name="Input1"><br><br>
+
+        <label for="correo1">Correo electronico</label><br>
+        <input type="email" placeholder="Ejemplo@hotmail.com" id="correo1" name="correo1"><br><br>
+
+        <label for="numero1">Cuantos pasteles</label><br>
+        <input type="number" placeholder="Cantidad" id="numero1" name="numero1"><br><br>
+
+        <label for="tel1">Numero de telefono</label><br>
+        <input type="tel" placeholder="Telefono a 10 Digitos" id="tel1" name="tel1" maxlength="10"><br><br>
+
+        <label for="fecha1">Ingresa la fecha a entregar</label><br>
+        <input type="date" id="fecha1" name="fecha1"><br>
+
+
+        <label for="Sabor">Escoge tu sabor</label><br>
+        <select id="Sabor" name="Sabor">
+            <option value="Chocolate">pastel de chocolate ($100 El kilo)</option>
+            <option value="Vainilla">pastel de vainilla ($120 El kilo)</option>
+            <option value="Cajeta">pastel de fresa y chocolate ($85 El kilo)</option>
+            <option value="Red Velvet">pastel de bombones ($75 El kilo)</option>
+        </select><br><br>
+
+        <label for="vol">Elija el peso del pastel (entre 1kg y 15kg):</label><br>
+        <input type="range" id="vol" name="vol" min="1" max="15"><br><br>
+
+
+        <label for="decoracion">Escoge tu decoracion</label><br>
+        <select id="decoracion" name="decoracion">
+            <option value="Ninguno"> Ninguna</option>
+            <option value="Fondant">betun ($90)</option>
+            <option value="Sprinkles">Chocolate ($150)</option>
+            <option value="Chispas de chocolate">cerezas ($50)</option>
+            <option value="Buttercream">macadamia ($120)</option>
+        </select><br><br>
+
+        <label for="Input2"> ingresa tu dirección</label><br>
+        <input type="text" placeholder="Calle y numero" id="Input2" name="Input2"><br><br>
+
+        <label for="Input2"> informacion adicional</label><br>
+        <input type="text" placeholder="Datos o detalles extras" id="Input2" name="Input2"><br><br>
+
+        <input type="button" id="boton1" name="boton1" value="Enviar pedido"
+            onclick="alert('Se ha enviado el pedido');"><br><br>
+        <input type="reset"><br>
+</form>
+    <footer>Derechos reservados</footer>
+  </body>
+</html>
